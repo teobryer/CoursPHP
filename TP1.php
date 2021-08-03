@@ -49,7 +49,7 @@ var_dump($f);
 
 $X="PHP7"; ## X : PHP 7 String - 
 $A=&$X;  ## A : PHP 7 String 
-$Y="9 eme version de PHP"; ## Y :  7 eme version de PHP String - 
+$Y="7 eme version de PHP"; ## Y :  7 eme version de PHP String - 
 $Z= (int)$Y * 10; ## Z :  70 int
 $X= (int)$Y * (int)$Y; ## X : int 49 A : int 49
 
@@ -58,3 +58,5 @@ var_dump($X);
 var_dump($A);
 var_dump($Y);
 var_dump($Z);
+
+## FIN TP1
